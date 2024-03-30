@@ -43,7 +43,7 @@ export default async function Home() {
         marginTop: "100px",
       }}
     >
-      <form>
+      <form action={createTodo}>
         <input name="name" placeholder="Add a todo" />
         <button type="submit">Add</button>
       </form>
